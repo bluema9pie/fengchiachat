@@ -99,18 +99,18 @@ $(function() {
   }
 
   // Adds the visual chat typing message
-  function addChatTyping (data) {
-    data.typing = true;
-    //data.message = '輸入中 ...';
-    addChatMessage(data);
-  }
+  //function addChatTyping (data) {
+  //  data.typing = true;
+  //  data.message = '輸入中 ...';
+  //  addChatMessage(data);
+  //}
 
   // Removes the visual chat typing message
-  function removeChatTyping (data) {
-    getTypingMessages(data).fadeOut(function () {
-      $(this).remove();
-    });
-  }
+  //function removeChatTyping (data) {
+  //  getTypingMessages(data).fadeOut(function () {
+  //    $(this).remove();
+  //  });
+  //}
 
   // Adds a message element to the messages and scrolls to the bottom
   // el - The element to add as a message
