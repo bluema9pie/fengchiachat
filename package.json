@@ -1,0 +1,9 @@
+{
+  "name": "fengchiachat",
+  "version": "1.0.0",
+  "description": "fengchia.net",
+  "dependencies": {
+    "express": "4.3.1",
+    "socket.io": "1.2.0"
+  }
+}
