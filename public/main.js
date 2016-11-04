@@ -265,7 +265,5 @@ $(function() {
 
   //load page events
 
-  $window.load(function(){
-      $LoginPage.modal('show');
-  });
+
 });
