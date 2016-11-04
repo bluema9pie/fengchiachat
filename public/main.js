@@ -106,11 +106,11 @@ $(function() {
   //}
 
   // Removes the visual chat typing message
-  //function removeChatTyping (data) {
-  //  getTypingMessages(data).fadeOut(function () {
-  //    $(this).remove();
-  //  });
-  //}
+  function removeChatTyping (data) {
+    getTypingMessages(data).fadeOut(function () {
+      $(this).remove();
+    });
+  }
 
   // Adds a message element to the messages and scrolls to the bottom
   // el - The element to add as a message
@@ -253,9 +253,9 @@ $(function() {
   });
 
   // Whenever the server emits 'typing', show the typing message
-  socket.on('typing', function (data) {
-    addChatTyping(data);
-  });
+  //socket.on('typing', function (data) {
+  //  addChatTyping(data);
+  //});
 
   // Whenever the server emits 'stop typing', kill the typing message
   socket.on('stop typing', function (data) {
