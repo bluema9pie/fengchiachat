@@ -101,7 +101,7 @@ $(function() {
   // Adds the visual chat typing message
   function addChatTyping (data) {
     data.typing = true;
-    data.message = '輸入中 ...';
+    //data.message = '輸入中 ...';
     addChatMessage(data);
   }
 
