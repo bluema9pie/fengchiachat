@@ -1,6 +1,6 @@
 html, body, input{
   font-family: "微軟正黑體","Titillium Web", sans-serif;
-  color: #FFFFFF;
+  color: #444444;
 }
 input{
   font-family: "微軟正黑體","Titillium Web", sans-serif;
@@ -14,7 +14,7 @@ body {
 
 .messages {
   font-size: 120%;
-  color: #FFFFFF;
+  color: #444444;
 }
 
 .inputMessage {
@@ -27,22 +27,22 @@ body {
   font-size: 90%;
   margin: 5px;
   text-align: center;
-  color: #FFFFFF;
+  color: #444444;
 }
 
 .messages {
   list-style: none;
-  color: #FFFFFF;
+  color: #444444;
   /*padding: 10px 20px 10px 20px;*/
 }
 
 .message.typing .messageBody {
-  color: #FFFFFF;
+  color: #444444;
 }
 
 .username {
   border-radius:3px;
-  color: #FFFFFF;
+  color: #444444;
   float: left;
   overflow: hidden;
   padding-right: 10px;
